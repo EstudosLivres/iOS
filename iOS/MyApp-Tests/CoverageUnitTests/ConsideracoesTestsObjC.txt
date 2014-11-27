@@ -1,0 +1,10 @@
+1. Tem um grupo (pasta virtual) que termina seu nome em Test;
+2. As classes de test não possuem cabeçalhos, somente .m;
+3. Os arquivos de test tem seus nomes terminados em Tests.m;
+4. Os métodos pré-definidos são: setUp e tearDown;
+5. Para criar um test:
+
+-(void) testNomeDoTeste {
+	// Assertiva:
+    XCTAssert(YES, @"Pass");
+}
