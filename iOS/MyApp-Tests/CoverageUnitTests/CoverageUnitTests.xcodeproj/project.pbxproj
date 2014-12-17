@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B14FB4071A35C8D400DB24F2 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B14FB4041A35C8D400DB24F2 /* TwitterKit.framework */; };
+		B14FB4081A35C8D400DB24F2 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B14FB4051A35C8D400DB24F2 /* TwitterKitResources.bundle */; };
+		B14FB4091A35C8D400DB24F2 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B14FB4061A35C8D400DB24F2 /* Fabric.framework */; };
 		B1599A651A2658F4006ECB1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1599A641A2658F4006ECB1D /* main.m */; };
 		B1599A681A2658F4006ECB1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1599A671A2658F4006ECB1D /* AppDelegate.m */; };
 		B1599A6B1A2658F4006ECB1D /* CoverageUnitTests.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1599A691A2658F4006ECB1D /* CoverageUnitTests.xcdatamodeld */; };
@@ -25,6 +28,9 @@
 		B1599A9E1A2735E6006ECB1D /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = B1599A9C1A2735E6006ECB1D /* Deck.m */; };
 		B1599AA11A2736C0006ECB1D /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = B1599AA01A2736C0006ECB1D /* PlayingCardDeck.m */; };
 		B1599AA21A2736C0006ECB1D /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = B1599AA01A2736C0006ECB1D /* PlayingCardDeck.m */; };
+		B1599AA71A273E03006ECB1D /* CardTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B1599AA61A273E03006ECB1D /* CardTestCase.m */; };
+		B1D75FFA1A2CD8E200C5726C /* pt-BR.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1D75FF91A2CD8E200C5726C /* pt-BR.strings */; };
+		B1D75FFB1A2CD8E200C5726C /* pt-BR.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1D75FF91A2CD8E200C5726C /* pt-BR.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B14FB4041A35C8D400DB24F2 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		B14FB4051A35C8D400DB24F2 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		B14FB4061A35C8D400DB24F2 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		B1599A5F1A2658F4006ECB1D /* CoverageUnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverageUnitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1599A631A2658F4006ECB1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1599A641A2658F4006ECB1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,6 +71,8 @@
 		B1599A9C1A2735E6006ECB1D /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		B1599A9F1A2736C0006ECB1D /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
 		B1599AA01A2736C0006ECB1D /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		B1599AA61A273E03006ECB1D /* CardTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardTestCase.m; sourceTree = "<group>"; };
+		B1D75FF91A2CD8E200C5726C /* pt-BR.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = "pt-BR.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B14FB4071A35C8D400DB24F2 /* TwitterKit.framework in Frameworks */,
+				B14FB4091A35C8D400DB24F2 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +98,10 @@
 		B1599A561A2658F4006ECB1D = {
 			isa = PBXGroup;
 			children = (
+				B14FB4041A35C8D400DB24F2 /* TwitterKit.framework */,
+				B14FB4051A35C8D400DB24F2 /* TwitterKitResources.bundle */,
+				B14FB4061A35C8D400DB24F2 /* Fabric.framework */,
+				B1D75FF91A2CD8E200C5726C /* pt-BR.strings */,
 				B1599A611A2658F4006ECB1D /* CoverageUnitTests */,
 				B1599A7E1A2658F4006ECB1D /* CoverageUnitTestsTests */,
 				B1599A601A2658F4006ECB1D /* Products */,
@@ -131,6 +148,7 @@
 			children = (
 				B1599A811A2658F4006ECB1D /* CoverageUnitTestsTests.m */,
 				B1599A7F1A2658F4006ECB1D /* Supporting Files */,
+				B1599AA61A273E03006ECB1D /* CardTestCase.m */,
 			);
 			path = CoverageUnitTestsTests;
 			sourceTree = "<group>";
@@ -170,6 +188,7 @@
 				B1599A5B1A2658F4006ECB1D /* Sources */,
 				B1599A5C1A2658F4006ECB1D /* Frameworks */,
 				B1599A5D1A2658F4006ECB1D /* Resources */,
+				B14FB4031A35C88000DB24F2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -209,6 +228,7 @@
 				TargetAttributes = {
 					B1599A5E1A2658F4006ECB1D = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 5N98869Y2C;
 					};
 					B1599A7A1A2658F4006ECB1D = {
 						CreatedOnToolsVersion = 6.1;
@@ -242,7 +262,9 @@
 			files = (
 				B1599A711A2658F4006ECB1D /* Main.storyboard in Resources */,
 				B1599A761A2658F4006ECB1D /* LaunchScreen.xib in Resources */,
+				B1D75FFA1A2CD8E200C5726C /* pt-BR.strings in Resources */,
 				B1599A731A2658F4006ECB1D /* Images.xcassets in Resources */,
+				B14FB4081A35C8D400DB24F2 /* TwitterKitResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,10 +272,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D75FFB1A2CD8E200C5726C /* pt-BR.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B14FB4031A35C88000DB24F2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 6063016d0a9305ef0c8572509ad2c05fa32f8b98 549fccc9b6e480045a39b5a8c6af24a04c86ae49b6b12eabe0d8f569c31daa34";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B1599A5B1A2658F4006ECB1D /* Sources */ = {
@@ -280,6 +319,7 @@
 				B1599AA21A2736C0006ECB1D /* PlayingCardDeck.m in Sources */,
 				B1599A911A268C0E006ECB1D /* Web.m in Sources */,
 				B1599A821A2658F4006ECB1D /* CoverageUnitTestsTests.m in Sources */,
+				B1599AA71A273E03006ECB1D /* CardTestCase.m in Sources */,
 				B1599A9A1A273574006ECB1D /* PlayingCard.m in Sources */,
 				B1599A961A2690B2006ECB1D /* Card.m in Sources */,
 			);
@@ -397,9 +437,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = CoverageUnitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -407,9 +454,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = CoverageUnitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
